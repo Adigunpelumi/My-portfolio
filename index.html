@@ -4,34 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
-    <title>Pelumi Adigun</title>
+    <title>project</title>
+    <link rel="stylesheet" href="stylee.css">
 </head>
 <body>
-    <nav id="navbar">
-
-        <img class="logo" src="/Images/R.jpg" width="100px" height="50px">
-        <div class="nav-content">
-            <ul>
-                <li><a href="#">Home </li>
-                <li><a href="#">About </li>
-                <li><a href="#">Work </li>
-                <li><a href="#">Contact </li>
-            </ul>
-        </div>
+    <nav class="navbar">
+<ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#Work">Work</a></li>
+    <li><a href="#contact">Contact Me</a></li>
+</ul>
     </nav>
 
-    <header id="showcase">
-        <div class="showcase-content">
-            <h3>i'm</h3>
-            <h1>pelumi</h1>
-            <h3>fullstack developer</h3>
+    <section id="home">
+     <div class="main">
+        <h1 class="headings">I AM <br> ADIGUN PELUMI <br> SOFTWARE ENGINEERING</h1>
+        <button class="btn">
+           Hire me 
+        </button>
+     </div>   
+    </section>
+
+    <section id="about">
+            <hi class="headings">ABOUT ME</hi>
+            <div id="pic">
+                <img src="img4.jpg.jpg" alt="">
+            <div id="intro">
+                <h2>ADIGUN PELUMI</h2>
+                <p>Date of Birth:November 15, 1990 <br> Age: 33 <br> Gender:Male <br> Birth Place:IFE,OSUN <br> Skills:Great at Problem Solving <br>Critical Thinking</b></p>
+            </div>
         </div>
-        <button></button>
-    </header>
+    </section>
 
-    <section>
+    <section id="Work">
+        <hi class="headings">WORK</hi>
+        <div class="row">
+            <div class="box">
+                <img src="OIP.jpg" alt="">
+              <hi class="headings">Website <br> Design</hi>  
+              <p>Web design is the process of creating websites. It encompasses several different aspects, including webpage layout, content production, and graphic design. While the terms web design and web development are often used interchangeably, web design is technically a subset of the broader category of web development.</p>
+            </div>
+            <div class="box"><img src="R.png" alt="">
 
+                <hi class="headings">Font end <br> Design</hi>  
+                <p> Front end is an engineering design approach used to control project expenses and thoroughly plan a project before a fix bid quote is submitted.[1] It may also be referred to as Pre-project planning (PPP), front-end loading (FEL), feasibility analysis, or early project planning</p>
+              </div>
+              <div class="box"><img src="R (1).png" alt="">
+
+                <hi class="headings">Digital <br> Marketing</hi>  
+                <p>Any marketing that uses electronic devices and can be used by marketing specialists to convey promotional messaging and measure its impact through your customer journey. In practice, digital marketing typically refers to marketing campaigns that appear on a computer, phone, tablet, or other device. It can take many forms, including online video, display ads, search engine marketing, paid social ads and social media posts. Digital marketing is often compared to “traditional marketing” such as magazine ads e.t.c</p>
+              </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <hi class="headings">CONTACT ME</hi>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter Your Name">
+            <input type="email" name="email" class="input" placeholder="Enter Your Email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
     </section>
 </body>
 </html>
